@@ -8,7 +8,7 @@ function loadContent() {
   fill("cvDetails", "Details")
   fill("cvSkills", "Skills")
   fill("cvLanguagues", "Languagues")
-  fill("cvPlayground", "Playground techs")
+  fill("cvPlayground", "Playground tech")
 
 }
 
