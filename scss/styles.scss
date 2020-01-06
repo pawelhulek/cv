@@ -22,6 +22,12 @@ body {
 	font-family: $font_family_1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	height: 169.71429rem;
+	.preview-box {
+		margin-top: 6rem;
+		margin-bottom: 6rem;
+		height: 157.71429rem;
+	}
 }
 .body--webpdf {
 	.template__fixed-element {
@@ -31,14 +37,6 @@ body {
 .body--pdf {
 	.template__fixed-element {
 		display: none;
-	}
-}
-.body--preview {
-	height: 169.71429rem;
-	.preview-box {
-		margin-top: 6rem;
-		margin-bottom: 6rem;
-		height: 157.71429rem;
 	}
 }
 .body--share {
