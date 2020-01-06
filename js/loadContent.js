@@ -8,6 +8,8 @@ function loadContent() {
   fill("cvDetails", "Details")
   fill("cvSkills", "Skills")
   fill("cvLanguagues", "Languagues")
+  fill("cvPlayground", "Playground techs")
+
 }
 
 function fill(where, what) {

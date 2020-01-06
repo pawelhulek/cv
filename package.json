@@ -3,6 +3,7 @@
     "node-sass": "^4.13.0"
   },
   "scripts": {
-    "scss-watch": "node-sass -w scss/ -o css/"
+    "scss-watch": "node-sass -w scss/ -o css/",
+    "scss-compile": "node-sass scss/ -o css/"
   }
 }
