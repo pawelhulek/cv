@@ -1,0 +1,250 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 7.5px;
+  line-height: 1.25;
+  color: #212121; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 120rem;
+  font-family: Source Sans Pro, Verdana, Geneva;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 169.71429rem; }
+  body .preview-box {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    height: 157.71429rem; }
+
+.body--webpdf .template__fixed-element {
+  display: none; }
+
+.body--pdf .template__fixed-element {
+  display: none; }
+
+.body--share {
+  height: 100%;
+  overflow: hidden; }
+  .body--share .preview-box {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    height: calc(100% - $top-margin); }
+
+.body--markup {
+  background: #e4eaf0;
+  margin: 0 auto;
+  width: calc(120rem + 70px);
+  padding: 35px; }
+  .body--markup .preview-box {
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    background: white;
+    padding-top: 6rem;
+    padding-bottom: 6rem; }
+
+a {
+  color: #616161; }
+
+.container {
+  position: relative;
+  display: block;
+  max-width: 120rem;
+  font-size: 1.7rem;
+  padding: 0rem 9rem; }
+
+.main-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 5rem 0rem 0rem 28rem; }
+
+.header {
+  width: 100%; }
+  .header .avatar {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    background-size: cover;
+    background-position: center center; }
+  .header .name {
+    display: block;
+    font-family: Oswald, Arial;
+    font-weight: 400;
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2.8rem; }
+    .header .name > span {
+      margin: 0 0.2rem; }
+  .header .info-block {
+    display: block;
+    text-align: center; }
+    .header .info-block div {
+      display: inline-block;
+      color: #9e9e9e; }
+    .header .info-block .current-position {
+      font-size: 1.8rem;
+      margin-right: 1.6rem;
+      white-space: nowrap; }
+    .header .info-block .city {
+      font-size: 1.6rem;
+      margin-right: 1.6rem;
+      padding-left: 2.2rem;
+      position: relative;
+      text-transform: uppercase;
+      white-space: nowrap; }
+    .header .info-block .phone {
+      font-size: 1.6rem;
+      padding-left: 1.8rem;
+      white-space: nowrap; }
+
+.main {
+  width: 100%; }
+
+.aside {
+  position: absolute;
+  top: 5rem;
+  left: 0rem;
+  width: 25rem; }
+  .aside .aside-group {
+    margin-bottom: 4.8rem;
+    padding: 0 0.4rem; }
+  .aside .title {
+    text-align: center;
+    font-family: Oswald, Arial;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem; }
+    .aside .title > span {
+      margin: 0 0.1rem; }
+    .aside .title:before {
+      content: '';
+      display: inline-block;
+      width: 0.6rem;
+      height: 0.6rem;
+      border: 0.15rem solid #212121;
+      border-radius: 1rem;
+      background: #fff;
+      margin: 0 1.6rem;
+      position: relative;
+      bottom: 0.3rem; }
+    .aside .title:after {
+      content: '';
+      display: inline-block;
+      width: 0.6rem;
+      height: 0.6rem;
+      border: 0.15rem solid #212121;
+      border-radius: 1rem;
+      background: #fff;
+      margin: 0 1.6rem;
+      position: relative;
+      bottom: 0.3rem; }
+  .aside .section {
+    margin-bottom: 2.3rem; }
+    .aside .section .label {
+      text-transform: uppercase;
+      color: #9e9e9e;
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 0.4rem; }
+    .aside .section .text {
+      text-align: center;
+      line-height: 1.5;
+      font-size: 1.6rem; }
+    .aside .section .text.highlighted {
+      text-decoration: underline; }
+  .aside .social-profile {
+    margin-bottom: 1.6rem; }
+  .aside .social-profile__link {
+    display: block;
+    color: inherit;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word; }
+  .aside .progress {
+    width: 80%;
+    margin: 0 auto;
+    height: 0.4rem;
+    margin-bottom: 2.4rem; }
+    .aside .progress .progress-inner {
+      width: 0%;
+      height: 100%;
+      background: #212121;
+      display: inline-block; }
+
+.experience-group {
+  margin-bottom: 4rem; }
+  .experience-group .group-title {
+    position: relative;
+    font-family: Oswald, Arial;
+    font-weight: 400;
+    font-size: 1.9rem;
+    padding-bottom: 1.8rem;
+    padding-left: 4.4rem;
+    text-transform: uppercase;
+    page-break-inside: avoid;
+    page-break-after: avoid; }
+    .experience-group .group-title > span {
+      margin-right: 0.2rem; }
+  .experience-group .group-title-icon {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .experience-group .group-content {
+    padding-left: 0;
+    border-left: 0.2rem solid #212121;
+    margin-left: 1.2rem;
+    position: relative; }
+  .experience-group .experience-item {
+    padding-left: 3rem;
+    margin-bottom: 2.4rem;
+    position: relative;
+    clear: both; }
+    .experience-group .experience-item:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0.6rem;
+      left: -0.6rem;
+      width: 0.8rem;
+      height: 0.8rem;
+      border: 0.15rem solid #212121;
+      border-radius: 1rem;
+      background: #fff; }
+  .experience-group .item-title {
+    font-size: 2.2rem;
+    margin-bottom: 0.8rem; }
+  .experience-group .item-caption {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+    color: #757575; }
+  .experience-group .item-description {
+    line-height: 1.5;
+    font-size: 1.7rem;
+    color: #757575; }
+    .experience-group .item-description strong {
+      font-weight: bold;
+      margin-left: 0.1rem; }
+    .experience-group .item-description span {
+      text-decoration: underline; }
+    .experience-group .item-description ul {
+      margin: 0.8rem 0;
+      list-style-position: outside;
+      padding-left: 3.5rem; }
+    .experience-group .item-description ol {
+      margin: 0.8rem 0;
+      list-style-position: outside;
+      padding-left: 3.5rem; }
