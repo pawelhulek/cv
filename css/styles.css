@@ -8,7 +8,7 @@ html {
   color: #212121; }
 
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   width: 120rem;
   font-family: Source Sans Pro, Verdana, Geneva;
@@ -19,32 +19,6 @@ body {
     margin-top: 6rem;
     margin-bottom: 6rem;
     height: 157.71429rem; }
-
-.body--webpdf .template__fixed-element {
-  display: none; }
-
-.body--pdf .template__fixed-element {
-  display: none; }
-
-.body--share {
-  height: 100%;
-  overflow: hidden; }
-  .body--share .preview-box {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    height: calc(100% - $top-margin); }
-
-.body--markup {
-  background: #e4eaf0;
-  margin: 0 auto;
-  width: calc(120rem + 70px);
-  padding: 35px; }
-  .body--markup .preview-box {
-    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
-    background: white;
-    padding-top: 6rem;
-    padding-bottom: 6rem; }
 
 a {
   color: #616161; }
@@ -125,26 +99,15 @@ a {
     margin-bottom: 1.6rem; }
     .aside .title > span {
       margin: 0 0.1rem; }
-    .aside .title:before {
-      content: '';
+    .aside .title:before, .aside .title:after {
+      content: "";
       display: inline-block;
       width: 0.6rem;
       height: 0.6rem;
       border: 0.15rem solid #212121;
       border-radius: 1rem;
       background: #fff;
-      margin: 0 1.5rem;
-      position: relative;
-      bottom: 0.3rem; }
-    .aside .title:after {
-      content: '';
-      display: inline-block;
-      width: 0.6rem;
-      height: 0.6rem;
-      border: 0.15rem solid #212121;
-      border-radius: 1rem;
-      background: #fff;
-      margin: 0 1.5rem;
+      margin: auto 1rem;
       position: relative;
       bottom: 0.3rem; }
   .aside .section {
@@ -161,15 +124,6 @@ a {
       font-size: 1.6rem; }
     .aside .section .text.highlighted {
       text-decoration: underline; }
-  .aside .social-profile {
-    margin-bottom: 1.6rem; }
-  .aside .social-profile__link {
-    display: block;
-    color: inherit;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-all;
-    word-break: break-word; }
   .aside .progress {
     width: 80%;
     margin: 0 auto;
@@ -214,7 +168,7 @@ a {
     position: relative;
     clear: both; }
     .experience-group .experience-item:before {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       top: 0.6rem;

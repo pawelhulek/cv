@@ -16,7 +16,7 @@ html {
 	color: $color_1;
 }
 body {
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	width: 120rem;
 	font-family: $font_family_1;
@@ -27,38 +27,6 @@ body {
 		margin-top: 6rem;
 		margin-bottom: 6rem;
 		height: 157.71429rem;
-	}
-}
-.body--webpdf {
-	.template__fixed-element {
-		display: none;
-	}
-}
-.body--pdf {
-	.template__fixed-element {
-		display: none;
-	}
-}
-.body--share {
-	height: 100%;
-	overflow: hidden;
-	.preview-box {
-		margin-top: 6rem;
-		margin-bottom: 6rem;
-		height: calc(100% - $top-margin);
-	}
-}
-.body--markup {
-	background: #e4eaf0;
-	margin: 0 auto;
-	width: calc(120rem + 70px);
-	padding: 35px;
-	.preview-box {
-		-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
-		box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
-		background: white;
-		padding-top: 6rem;
-		padding-bottom: 6rem;
 	}
 }
 a {
@@ -97,7 +65,7 @@ a {
 		text-transform: uppercase;
 		text-align: center;
 		margin-bottom: 2.8rem;
-		>span {
+		> span {
 			margin: 0 0.2rem;
 		}
 	}
@@ -105,8 +73,8 @@ a {
 		display: block;
 		text-align: center;
 		div {
-		    display: inline-block;
-		    color: $color_3;
+			display: inline-block;
+			color: $color_3;
 		}
 		.current-position {
 			font-size: 1.8rem;
@@ -147,30 +115,19 @@ a {
 		font-size: 1.7rem;
 		text-transform: uppercase;
 		margin-bottom: 1.6rem;
-		>span {
+		> span {
 			margin: 0 0.1rem;
 		}
-		&:before {
-			content: '';
-			display: inline-block;
-			width: 0.6rem;
-			height: 0.6rem;
-			border: 0.15rem solid #212121;
-			border-radius: 1rem;
-			background: #fff;
-			margin: 0 1.5rem;
-			position: relative;
-			bottom: 0.3rem;
-		}
+		&:before,
 		&:after {
-			content: '';
+			content: "";
 			display: inline-block;
 			width: 0.6rem;
 			height: 0.6rem;
 			border: 0.15rem solid #212121;
 			border-radius: 1rem;
 			background: #fff;
-			margin: 0 1.5rem;
+			margin: auto 1rem;
 			position: relative;
 			bottom: 0.3rem;
 		}
@@ -192,17 +149,6 @@ a {
 		.text.highlighted {
 			text-decoration: underline;
 		}
-	}
-	.social-profile {
-		margin-bottom: 1.6rem;
-	}
-	.social-profile__link {
-		display: block;
-		color: $color_5;
-		overflow-wrap: break-word;
-		word-wrap: break-word;
-		word-break: break-all;
-		word-break: break-word;
 	}
 	.progress {
 		width: 80%;
@@ -229,7 +175,7 @@ a {
 		text-transform: uppercase;
 		page-break-inside: avoid;
 		page-break-after: avoid;
-		>span {
+		> span {
 			margin-right: 0.2rem;
 		}
 	}
@@ -254,7 +200,7 @@ a {
 		position: relative;
 		clear: both;
 		&:before {
-			content: '';
+			content: "";
 			display: block;
 			position: absolute;
 			top: 0.6rem;

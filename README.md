@@ -6,7 +6,9 @@ npm run scss-watch
 
 To see output open index.html
 
-To generate PDF click ctrl+p and print to PDF. (To generate one page print on A3 I guess noone is going to print the CV XD)
+To generate PDF click ctrl+p and print to PDF. 
 
 #TechDebt
-Pusing css for github pages. migrate to azure with github actions
+Pushing css for github pages.
+migrate to azure with github actions
+
